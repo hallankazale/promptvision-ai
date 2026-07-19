@@ -22,4 +22,13 @@ Acesse `http://localhost:3000`.
 
 ## Estratégia de desenvolvimento
 
-As telas serão construídas uma por vez, com componentes reutilizáveis e validação mobile entre 360px e 430px.
+As telas são construídas uma por vez, com componentes reutilizáveis e validação mobile entre 360px e 430px.
+
+## Telas concluídas
+
+- Landing Page mobile
+- Onboarding mobile
+
+## Próxima tela
+
+- Login e cadastro
