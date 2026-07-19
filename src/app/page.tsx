@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const benefits = [
   ["✦", "Gancho", "identificado"],
   ["◎", "Gatilhos", "encontrados"],
@@ -29,7 +31,7 @@ export default function HomePage() {
               <span className="brand-mark">▶</span>
               <span>PromptVision <span className="brand-accent">AI</span></span>
             </div>
-            <button className="ghost-button" type="button">Entrar</button>
+            <Link className="ghost-button" href="/login">Entrar</Link>
           </header>
 
           <span className="badge">✦ IA PARA CRIADORES</span>
@@ -51,7 +53,9 @@ export default function HomePage() {
           <form className="form">
             <label htmlFor="video-link" style={{ position: "absolute", left: "-9999px" }}>Link do vídeo</label>
             <input id="video-link" className="input" placeholder="Cole o link do vídeo aqui..." />
-            <button className="primary-button" type="button">✦ Analisar vídeo grátis</button>
+            <Link className="primary-button" href="/onboarding" style={{ display: "grid", placeItems: "center" }}>
+              ✦ Analisar vídeo grátis
+            </Link>
           </form>
 
           <div className="trust" aria-label="Benefícios iniciais">
@@ -100,7 +104,9 @@ export default function HomePage() {
       </section>
 
       <div className="sticky-cta">
-        <button type="button">Começar grátis agora →</button>
+        <Link href="/onboarding" style={{ display: "block" }}>
+          <button type="button">Começar grátis agora →</button>
+        </Link>
       </div>
     </main>
   );
