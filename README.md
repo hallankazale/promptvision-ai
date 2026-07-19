@@ -20,15 +20,17 @@ npm run dev
 
 Acesse `http://localhost:3000`.
 
-## Estratégia de desenvolvimento
-
-As telas são construídas uma por vez, com componentes reutilizáveis e validação mobile entre 360px e 430px.
-
 ## Telas concluídas
 
-- Landing Page mobile
-- Onboarding mobile
+- Landing Page
+- Onboarding
+- Login
+- Cadastro
 
 ## Próxima tela
 
-- Login e cadastro
+- Dashboard mobile
+
+## Estratégia de desenvolvimento
+
+As telas são construídas uma por vez, com componentes e estilos reutilizáveis, navegação visual e validação mobile entre 360px e 430px. A lógica real será conectada somente depois que toda a experiência visual estiver pronta.
